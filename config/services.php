@@ -35,4 +35,21 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'facebook' => [ //change it to any provider
+        'client_id' => '',
+        'client_secret' => '',
+        'redirect' => 'http://localhost:8000/auth/facebook/callback',
+    ],
+
+    'twitter' => [ //change it to any provider
+        'client_id' => '',
+        'client_secret' => '',
+        'redirect' => 'http://localhost:8000/auth/twitter/callback',
+    ],
+
+    'google' => [ //change it to any provider
+        'client_id' => '',
+        'client_secret' => '',
+        'redirect' => 'http://localhost:8000/auth/google/callback',
+    ],
 ];

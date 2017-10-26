@@ -11,6 +11,16 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+
+        <link href="/bootstrap-social-gh-pages/bootstrap-social.css" rel="stylesheet">
+
+        <link href="/bootstrap-social-gh-pages/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="/bootstrap-social-gh-pages/assets/css/font-awesome.css" rel="stylesheet">
+        <link href="/bootstrap-social-gh-pages/assets/css/docs.css" rel="stylesheet" >
+
+        <!-- Styles -->
         <style>
             html, body {
                 background-color: #fff;
@@ -78,6 +88,21 @@
             @endif
 
             <div class="content">
+
+                <br>
+
+                <a href="{{ url('/auth/facebook') }}" class="btn btn-block btn-social btn-facebook">
+                    <span class="fa fa-facebook"></span> Sign in with Facebook
+                </a>
+
+                <a href="{{ url('/auth/twitter') }}" class="btn btn-block btn-social btn-twitter">
+                    <span class="fa fa-twitter"></span> Sign in with Twitter
+                </a>
+
+                <a href="{{ url('/auth/google') }}" class="btn btn-block btn-social btn-google">
+                    <span class="fa fa-google"></span> Sign in with Google
+                </a>
+
                 <div class="title m-b-md">
                     Laravel
                 </div>
